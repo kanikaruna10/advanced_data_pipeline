@@ -1,0 +1,14 @@
+# Ignore the virtual environment (Thousands of library files that only work on my PC)
+myenv1/
+
+# Ignore large datasets (GitHub has size limits; we keep raw data local)
+*.csv
+*.zip
+
+# Ignore python junk (Temporary 'compiled' code files created by the computer)
+__pycache__/
+
+# Ignore windows junk (Hidden system files for folder settings and icon previews)
+Thumbs.db
+desktop.ini
+
